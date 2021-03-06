@@ -226,7 +226,7 @@ function Schb(){
         if (ret) {
           var clipBoard = api.require('clipBoard');
           clipBoard.set({
-              value: '【爱尚TV】全网VIP视频免费看，高清无广告，再也不用充值会员啦！APP下载地址：'+ret[0].url_short
+              value: '【多多影视】全网VIP视频免费看，高清无广告，再也不用充值会员啦！APP下载地址：'+ret[0].url_short
           }, function(ret, err) {
               if (ret) {
                /* api.toast({
@@ -241,7 +241,7 @@ function Schb(){
         } else {
           var clipBoard = api.require('clipBoard');
           clipBoard.set({
-              value: '【爱尚TV】全网VIP视频免费看，高清无广告，再也不用充值会员啦！APP下载地址：'+copy
+              value: '【多多影视】全网VIP视频免费看，高清无广告，再也不用充值会员啦！APP下载地址：'+copy
           }, function(ret, err) {
               if (ret) {
             /*     api.toast({
@@ -283,7 +283,7 @@ function Schb(){
 function sharefx() {
 var sharedModule = api.require('shareAction');
   sharedModule.share({
-   text : '【爱尚TV】全网VIP视频免费看，高清无广告，再也不用充值会员啦！下载地址：',
+   text : '【多多影视】全网VIP视频免费看，高清无广告，再也不用充值会员啦！下载地址：',
    type : 'url',
    path : copy,
    thumbnail:"widget://image/fx.png"
